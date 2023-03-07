@@ -1,0 +1,87 @@
+﻿<Window x:Class="FintessClub.Window1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FintessClub"
+        mc:Ignorable="d"
+        Title="Window1" Height="600" Width="400">
+    <Grid>
+
+        <Grid.Background>
+            <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+                <GradientStop Color="#56DA39E3" Offset="0.0" />
+                <GradientStop Color="#66BA4BFA" Offset="0.25" />
+                <GradientStop Color="#45FD3FA0" Offset="0.75" />
+                <GradientStop Color="#556F39E3" Offset="1.0" />
+            </LinearGradientBrush>
+        </Grid.Background>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="75*"/>
+            <ColumnDefinition Width="37*"/>
+            <ColumnDefinition Width="684*"/>
+        </Grid.ColumnDefinitions>
+        <StackPanel Grid.ColumnSpan="3" Margin="0,0,-0.444,-0.111">
+            <TextBlock 
+                Text="Авторизация"
+                FontFamily="Mistral"
+                FontSize="36"
+                HorizontalAlignment="Center"
+                Margin="0 38 0 0"
+                />
+            <TextBlock x:Name="login"
+                       HorizontalAlignment="Left"
+                       Height="22"
+                       Margin="36 66 0 0"
+                       Text="Логин"
+                       FontWeight="Bold"
+                       Width="52" 
+                       />
+            <TextBox x:Name="tblog"
+                     HorizontalAlignment="Left"
+                     Height="30"
+                     Margin="36 0 0 0" 
+                     Text="Введите логин"
+                     FontStyle="Oblique"
+                     TextAlignment="Center"
+                     FontSize="14"
+                     Width="310"
+                     />
+            <TextBlock x:Name="password"
+                       HorizontalAlignment="Left"
+                       Height="22" 
+                       Margin="36 8 0 0" 
+                       Text="Пароль"
+                       FontWeight="Bold"
+                       Width="80"
+                       />
+            <TextBox x:Name="txbpass"
+                     HorizontalAlignment="Left"
+                     Height="30"
+                     Margin="36 0 0 0" 
+                     Text="Введите пароль"
+                     FontStyle="Oblique"
+                     TextAlignment="Center"
+                     FontSize="14"
+                     Width="310"
+                     />
+            <Button x:Name="buttonv"
+                    Content="Войти"
+                    FontStyle="Oblique"
+                    FontWeight="Bold"
+                    HorizontalAlignment="Left"
+                    Height="36" 
+                    Margin="126 66 0 0"
+                    Width="130"
+                    Background="#55BA4BFA"
+                     />
+            <TextBlock x:Name="regist"
+                         Height="20"
+                         Margin="160,8,160,0"
+                        FontWeight="ExtraLight"
+                       Foreground="#4C279C"
+                         Text="Регистрация"
+                       />
+        </StackPanel>
+    </Grid>
+</Window>
