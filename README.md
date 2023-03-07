@@ -8,3 +8,6 @@
 Регистрация
 ![image](https://user-images.githubusercontent.com/116633180/219637884-129c1390-4db4-405d-9be6-4bb68d93e271.png)
 ![image](https://user-images.githubusercontent.com/116633180/219637995-0cafb457-c17d-447e-9db9-1756cd1adfaf.png)
+
+БД
+![image](https://user-images.githubusercontent.com/116633180/223375743-c7e0b86f-aa48-49ca-b3db-7db691ead8b9.png)
